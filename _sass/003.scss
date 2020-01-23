@@ -1,0 +1,25 @@
+body {
+  // 003:149
+  color: #666;
+  text-align: left;
+  font-family: $base-font-family;
+  // 003:152
+  font-size: 87.5%;
+  line-height: 150%;
+  -webkit-text-size-adjust: 100%;
+}
+// 003:195
+html, body, #wrap {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  // 003:757
+  @include mq() {
+    line-height: 150%;
+  }
+  // 003:779
+  @include mq(lg) {
+    line-height: 150%;
+  }
+}

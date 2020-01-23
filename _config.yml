@@ -1,0 +1,30 @@
+title: NPO法人 ノア
+email: saitomako@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  埼玉県寄居町で活動している非営利の市民団体です。
+  自然の恵みを分かち合い、相互に支えあう地域づくりをめざすのが目的です。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+lang: "ja"
+locale: "ja"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+#theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
