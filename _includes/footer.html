@@ -1,0 +1,40 @@
+<div id="back-top" style="display: block; opacity: 1;">
+  <a href="#wrap">
+    <img id="pagetop" src="/assets/images/footer_pagetop.png" alt="">
+  </a>
+</div>
+<div id="footerSection" style="top: 0px;">
+  <div id="pagetop">
+    <div id="pagetopInner" class="innerBox">
+      <a href="#wrap">PAGETOP</a>
+    </div>
+  </div>
+  <div id="footMenu">
+    <div id="footMenuInner" class="innerBox">
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footerInner" class="innerBox">
+      <dl id="footerOutline">
+        <dt>{{ site.title }}</dt>
+        <dd>〒369-1205<br>埼玉県大里郡寄居町末野1233-2</dd>
+      </dl>
+      <div id="footerSiteMap">
+        <div class="menu-main-menu-container">
+          <ul id="menu-main-menu-2" class="menu">
+            {% for item in site.data.menu %}
+              <li class="menu-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="siteBottom">
+    <div id="siteBottomInner" class="innerBox">
+      <div id="copy">
+        Copyright © <a href="https://npo-noah.org/" rel="home">{{ site.title }}</a> All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</div>

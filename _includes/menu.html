@@ -1,0 +1,19 @@
+<div id="gMenu">
+  <div id="gMenuInner" class="innerBox">
+    <div class="headMainMenu">
+      <div class="menu-main-menu-container">
+        <ul id="menu-main-menu" class="menu">
+          <!-- page.url = {{ page.url }} -->
+          {% for item in site.data.menu %}
+          <li class="menu-item {{ item.class }}{% if page.url == item.link %} current{% endif %}">
+            <a href="{{ item.link }}">
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.sub }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

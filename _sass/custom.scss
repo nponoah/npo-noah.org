@@ -1,7 +1,20 @@
-body {
-  // index:70
-  background-color: $custom-background-color;
-  // index:229
-  color: $base-color;
-  font-family: $base-font-family;
+//
+.new {
+  position: relative;
+  &:after {
+    color: #f00;
+    font-weight: bold;
+    content: "NEW";
+    font-size: 8px;
+    position: absolute;
+    top: -12px;
+    right: 4px;
+    transform: rotate(10deg);
+    padding: 0 8px;
+    display: block;
+  }
+}
+
+.headMainMenu li a span {
+  text-transform: uppercase;
 }

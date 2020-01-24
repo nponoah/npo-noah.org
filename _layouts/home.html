@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% include main-banner.html %}
+<div id="main">
+  <div id="container" class="innerBox">
+    <div id="content" class="content">
+      {% for tag in site.tags['news'] limit:1 %}
+        <h3>{{ tag.title }}</h3>
+        {{ tag.excerpt }}
+      {% endfor %}
+      {{ content }}
+    </div>
+    {% include sidebar.html %}
+  </div>
+</div>
+{% include footer.html %}
