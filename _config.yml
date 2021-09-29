@@ -3,7 +3,7 @@ email: saitomako@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   埼玉県寄居町で活動している非営利の市民団体です。
   自然の恵みを分かち合い、相互に支えあう地域づくりをめざすのが目的です。
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/npo-noah.org" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: "ja"
 locale: "ja"
